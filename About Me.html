@@ -8,43 +8,49 @@ body
 color: #FFFFFF;
 font-family: Monoco;}
 
-header
-{background-color:#FF5349;
-height:50px;
-font-family: Monaco;}
+ header
+{background-color:#00A7E1;
+height: 50px;
+  font-family:monaco;
+}
+
+a 
+{float:right;
+      color:white;
+      text-decoration:none;
+      margin:6px;}
+
+      a:hover
+      {color: #F4E04D;}
+
 
  footer
-    {background-color:#5ADB96;
+    {background-color:#00345A;
       height:100px;
       margin-top:100px;
       font-family: Monaco;
-      color:#FF5349 ;
+      color:white;
     }
 
 form
 {background-color: #58DBFF;
 color: white;}
 
-a 
-{float:right;
-      color:#5ADB96;
-      text-decoration:none;
-      margin:6px;}
 
-a:hover
-{color:#58DBFF;}
 
 p
 
-{background-color: #5ADB96;
-font-family: monaco;}
+{background-color: #00345A;
+font-family: monaco;
+  padding:10px;
+}
 
 a.one:visited {color:#DF744A;}
 
 
   form
-  {color: #FAEC2A;
-    background-color: #FAEC2A;}
+  {color: #F4E04D;
+    background-color:#F4E04D;}
 
   #a 
   {color: #FEDCD2;
@@ -52,7 +58,7 @@ a.one:visited {color:#DF744A;}
 
     .common
 
-{background-color:#58DBFF;
+{background-color:#007EA7;
 font-family:Monaco;
 font-size:20px;
 color:ghostwhite;
@@ -69,19 +75,16 @@ background-attachment: fixed;
   height:50px;
 
 }
-.intro
-{background-image:url('2702069.png');
-background-repeat:no-repeat;}
 
-.ingredients
-{background-image:url('324123.png');}
-
-.equip
-{background-image:url('download (3).jpeg');}
-
+#case
+{
+  color:white;
+  background-color:#007EA7;
+  font-family:monaco;
+  padding:10px;
+}
 
   
-
 
 </style>
 </head>
@@ -89,50 +92,61 @@ background-repeat:no-repeat;}
 <body>
 
 <header>
-
- <a href="Contact Us.html">Contact Us</a>
-    <a href="About Me.html">About Me</a>
-    <a href="Website .html">Home</a> 
+<a href="Aquarium.html">Aquarium</a> 
+ <a href="Games.html">Games!</a>
+			 <a href="Page3.html">Contact Us</a>
+    <a href="Page2.html">About Me</a>
+    <a href="index.html">Home</a> 
 </header>
 
 
 
 <p>
-Hi, My name is Vamshika. I am 12 years old, and I live in SC. I hope you'll enjoy reading about my crazy life.
+Hi, My name is Vamshika. I am 12 years old, and I live in SC. 
+I hope you'll enjoy reading about my crazy life.
 
-Since this is the about me page, you'll learn about some of my favorite hobbies and activities.
+Since this is the about me page, you'll learn about some 
+of my favorite hobbies and activities. News Flash: 
+I'm moving to Florida!!
 </p>
-
+<form>
+	hi
+	</form>
+	<div id="case">Here: Something with which you can convert 
+	letters into titlecase (first letter capitalized, rest are
+	lowercase. Click autorun to go back.)</div>
+	<br>
+	<input type="text" id="text">
+    <button onClick="fun()">Click Here</button>
+    
+	
 <footer>
 </footer>
 <form>
 	hi
 	</form>
 
-</p>
+
 
 
 <div class= 'common'>
     
-  <h2>  <ul>Hobbies...</h2>
+  <h2>  <ul>Hobbies...</ul></h2>
       <li>Reading</li>
       <li>Swimming</li>
       <li>Sketching</li>
       <li>Doing Gymnastics</li>
       <li>Coding</li>
       
-      </ul>
+      
 
     </div>
 
-    <div class= 'intro' >
-
-    </div>
-
+    <br>
     
     <div class= 'common'>
       
-  <h2> <ul>My Favorites... </h2>
+  <h2> <ul>My Favorites... </ul></h2>
 <li>Color: Blue</li>
 
 <li>Food: Pizza</li>
@@ -141,34 +155,55 @@ Since this is the about me page, you'll learn about some of my favorite hobbies 
 
 <li>TV Show: Loki</li>
 
-<li>Movie: The Lion King</li>
-</ul>
+<li>Movie: Finding Nemo</li>
+
+<li>Character: 🔥🔥🔥LEO VALDEZ🔥🔥
+🔥(look him up and read the books.) 🔥🔥🔥</li>
+
 
 
     </div>
-<div class= 'equip'>
-
-    </div>
-
+<br><br>
+<form>
+	hi
+	</form>
     <div class='common'><br>
 <h1>Email me if you share any of these favorites with me!</h1>
     </div>
 
 
     
-    <div class= 'ingredients'>
-
-    </div>
-
-
+    
+    
+    
 
 
+<center>
 
+<footer>Contact Me @ Gmail </footer>
+
+</center>
+<script>
+
+function fun()
+    
+    {
+     
+var a=document.getElementById("text").value;
+var b=a.slice(0,1);
+var rest=a.slice(1, a.length);
+var d=rest.toLowerCase();
+var c=b.toUpperCase();
+document.write(c+d);
+    }
+    
+
+</script>
 
 </body>
 
 
-<footer>Contact Me @ Gmail </footer>
+
 
 
 
