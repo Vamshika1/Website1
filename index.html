@@ -1,0 +1,312 @@
+<html>
+<head>
+
+<style>
+    
+header
+{
+  background-color:#00A7E1;
+  height: 50px;
+  font-family:monaco;
+  padding:5px;
+}
+
+a 
+{
+  float:right;
+  color:white;
+  text-decoration:none;
+  margin:6px;
+
+}
+
+a:hover
+{
+  color: #F4E04D;
+  
+}
+
+img
+{
+  height:30px;
+  margin:5px;
+  
+}
+
+footer
+{
+  background-color:#00345A;
+  height:100px;
+  margin-top:100px;
+  font-family:monaco;
+  color:#FFF ;
+  padding:10px;
+  
+}
+
+    p
+    {float:right;
+      color:white;
+    }
+
+    #a
+    {font-family:monaco;
+      color:#F4E04D;
+      background-color: #F4E04D;
+     
+    }
+
+    h1
+    {font-family:Monaco;
+    margin-top:20px;
+    color:#FFFFFF;
+     padding:5px;
+    }
+
+      body
+      {background-color: #FFFFFF;
+        font-family: Monaco;
+       
+      }
+
+      form
+      {background-color:#00345A;
+        color: #58DBFF;
+        font-family: Monaco;
+         padding:5px;
+      }
+     #z
+{background-color: white;}
+
+a.one:visited 
+{color:#DF744A;}
+
+p
+{color:white;
+font-family: monaco;
+   padding:5px;
+}
+
+h3
+{color: #FFFFFF;}
+
+div
+{background-color:#FAEC2A ;
+color:#FAEC2A ;
+   
+}
+
+.square1
+{height: 250px;
+width: 250px;
+background-color: #007EA7;
+display: inline-block;
+padding-left: 5px;
+border-radius: 5px;
+
+}
+
+.square2
+{height: 250px;
+width: 250px;
+background-color:#00345A;
+display: inline-block;
+padding-left: 5px;
+border-radius: 5px;
+
+
+}
+
+.square3
+{height: 250px;
+width: 250px;
+background-color:#00A7E1;
+display: inline-block;
+padding-right: 5px;
+border-radius: 5px;
+
+
+}
+
+.square1:hover
+{opacity: 0.6;}
+
+.square2:hover
+{opacity: 0.6;}
+
+.square3:hover
+{opacity: 0.6;}
+
+#vote
+{
+  color:white;
+  background-color:#00A7E1;
+  padding:10px;
+}
+
+#box
+{
+ color:white;
+ background-color:#007EA7;
+ padding:10px;
+}
+
+</style>
+</head>
+<body>
+
+<center>
+
+<header>
+
+<img src="leo.jpg">
+
+
+<a href="Games.html">Games!</a>
+<a href="Page3.html">Contact Me</a>
+<a href="Page2.html">About Me</a>
+<a href="index.html">Home</a> 
+    
+</header>
+    
+<form>
+    
+<center> 
+<font id="a"> <h1>Welcome to My Blog</h1> </font> 
+</center>
+
+</form>
+
+
+<div id="a">
+ 
+ filler word
+
+</div>
+  
+   <form> 
+   
+<h3>
+<center>
+  In this blog, I'll be telling about some random 
+  and crazy things that happen in my life.
+</center>
+</h3>
+   
+   </form>
+
+<br><br><br>
+
+<div id="vote">
+Here's a thingy: You can find out if you can vote! 
+Click autorun to go back.
+</div>
+
+<br><br>
+
+<input type="text" placeholder="Your Age" id=age1>    
+<button onclick="nuf()">Click Here</button>
+    
+<br><br>
+
+<div>
+ filler word
+</div>
+
+<br><br><br>
+     
+     
+<center>
+
+<div class="square1">
+  <p>
+  Me<br>
+  My name is Vamshika. I'm 12 years old, and I live in South 
+  Carolina. I'm doing this blog because I'm in a coding class 
+  which requires me to do this.
+  </p>
+  </div>
+
+<div class="square2">
+  <p>
+  Code<br>
+  I know Scratch, CSS, HTML, Javascript. I hope to learn C. 
+  </p>
+  </div>
+
+<div class="square3">
+  <p>
+  You<br> 
+  You can read my blog for fun updates and activities to do.
+  </p>
+  </div>
+  
+  <br><br><br>
+  
+<div id="box">
+  
+This will convert any letters you type into UPPERCASE!
+Click autorun to go back.
+
+</div>
+
+<br><br>
+
+<button onClick="up()">Click Here</button>
+ 
+<footer> Contact Me @ Gmail </footer>
+  
+  </center>
+ <script> 
+ 
+ function nuf()
+ {
+   
+var age= document.getElementById("age1").value;
+   
+   if (age>18 && age<90)//strict condition 
+   {
+    alert("You can vote!");
+   }
+   
+   else if(age<18 || age>90)
+   {
+     alert("You can't vote :(")// optional
+    }
+   
+   else if(age==18)
+   {
+     alert("You can vote!")// normal command
+   }
+   
+   else if(age==90)
+   
+   {
+     alert("You can vote!");
+   }
+   
+ }
+ 
+  function up()
+    
+    {
+      var a=prompt("Type some letters!");
+      var b=a.toUpperCase()
+      alert(b);
+    }
+    
+ 
+ </script>
+ 
+ </center>
+ 
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
